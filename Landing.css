@@ -37,7 +37,7 @@ body, html {
 }
 
 
-.hero {
+.start {
     background-image: url('./Images/Back.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -48,7 +48,7 @@ body, html {
     position: relative;
 }
 
-.hero::after {
+.start::after {
     content: '';
     position: absolute;
     top: 0;
@@ -58,7 +58,7 @@ body, html {
     background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay for better text readability */
 }
 
-.hero-content {
+.start-content {
     position: relative;
     background-color: rgba(0, 0, 0, 0.7); /* Optional: Ensures text stands out */
     padding: 2rem;
