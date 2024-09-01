@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Fragrance</title>
+    <link rel="stylesheet" href="./Landing.css">
+    <link rel="icon" href="./Images/icon.jpg">
+</head>
+<body>
+    <header class="header">
+        <h1>Sweet Fragrance</h1>
+    </header>
+    
+    <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section id="home" class="hero">
+        <div class="hero-content" >
+            <h2>Welcome to Sweet Fragrance</h2>
+            <p>Where every bite is a journey of exquisite flavors and unforgettable dining experiences.</p>
+        </div>
+    </section>
+    
+    <section id="menu" class="section" >
+        <div class="section-content">
+            <h2>Our Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="./Images/Burger.jpg" alt="Burger">
+                    <h3>Burger</h3>
+                    <p>Enjoy our Classic Cheeseburger, featuring a juicy beef patty, melted cheddar cheese, and fresh toppings all nestled in a toasted brioche bun.
+                    </p>
+                    <p><strong>₹100-₹300</strong></p>
+                </div>
+                <div class="menu-item">
+                    <img src="./Images/pizza.jpg" alt="Pizza">
+                    <h3>Pizza</h3>
+                    <p>Savor our pizza, topped with rich tomato sauce, melted cheese, and your choice of fresh, delicious toppings on a perfectly baked crust.</p>
+                    <p><strong>₹250-₹400</strong></p>
+                </div>
+                <div class="menu-item">
+                    <img src="./Images/desserts.jpg" alt="Dessert">
+                    <h3>Dessert</h3>
+                    <p>Treat yourself to our delectable dessert, featuring a rich and indulgent blend of flavors and textures that perfectly cap off your meal.</p>
+                    <p><strong>₹100-₹600</strong></p>
+                </div>
+                <div class="menu-item">
+                    <img src="./Images/Drinks.jfif" alt="Drink">
+                    <h3>Sweet Drink</h3>
+                    <p>Experience our signature dessert with exquisite layers of delicate flavors and textures, elegantly garnished with edible flowers.</p>
+                    <p><strong>₹25-₹150</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="section" style="background-image: url('./Images/About.jpg');">
+        <div class="section-content">
+            <h2>About Us</h2>
+            <p>At Sweet Fragrance, we offer more than just a meal; we invite you on a sensory journey like no other.
+                <br><br>
+                 Our dedicated team of chefs crafts each dish with meticulous care and creativity, promising an unforgettable dining experience.
+                <br><br>
+                We pride ourselves on sourcing the freshest ingredients from local, organic farms, ensuring vibrant flavors in every bite.
+                <br> <br>
+                Our commitment to sustainability and ethical practices not only enhances your dining pleasure but also supports a responsible and eco-friendly approach.
+                <br><br>
+                Join us for an aromatic adventure that delights your taste buds and creates lasting memories..</p>
+        </div>
+    </section>
+    
+    <section id="contact" class="section" style="background-image: url('/api/placeholder/1200/800');">
+        <div class="section-content">
+            <h2>Make a Reservation</h2>
+            <form id="reservation-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="date" required>
+                <input type="time" required>
+                <input type="number" placeholder="Number of guests" min="1" required>
+                <textarea placeholder="Special requests" rows="4"></textarea>
+                <button type="submit">Reserve Now</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Sweet Fragrance.</p>
+        <p>03 abc, xyz, india | Phone: 123456789 | Email: sweetfragrance.com</p>
+    </footer>
+<script src="./Landing.js"></script>
+    
+</body>
+</html>
