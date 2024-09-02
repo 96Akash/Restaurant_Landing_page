@@ -4,15 +4,18 @@ body, html {
     font-family: 'Arial', sans-serif;
     scroll-behavior: smooth;
     background-color: #f4f4f4;
+    overflow-x: hidden;
 }
 
 
 .header {
-    background-image: url(./Images/Name.jpg);
+    background-image: url(./Images/image.webp);
     color: #ffffff;
     text-align: center;
     padding: 2rem;
     font-size: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav {
